@@ -1,0 +1,12 @@
+.contacto{
+    background-color:  rgb(225, 225, 225);
+    padding: 0px 0px 20px 0px;
+}
+.contacto h2{
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+    text-align: center;  
+}
+.formulario{
+    padding: 0px 0px 0px 40rem;
+}

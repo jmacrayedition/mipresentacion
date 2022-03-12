@@ -1,0 +1,41 @@
+.habilidades {
+    background-color: rgb(225, 225, 225);
+    text-align: center;
+}
+
+.habilidades h2 {
+    padding: 20px 0px 0px 0px;
+font-weight: bold;
+}
+
+.habilidades__list {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.habilidades__list li {
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #03363C;
+    border-radius: 10px;
+
+}
+
+.list__d {
+    color: rgb(0, 0, 0);
+    margin: -20px 0px 20px 0px;
+}
+.habilidades__list li:hover, .list__d:hover{
+    border-color:  #0eac21;
+    color: #0eac21;
+   
+}
+
+.habilidades__list li:active {
+    border-color: #136F24;
+}

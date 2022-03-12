@@ -1,0 +1,28 @@
+/*Section Sobre mi*/
+.sobre__mi {
+    padding: 3em 0;
+    margin: 0 auto;
+    width: 620px;
+}
+
+
+.perfil {
+    width: 7em;
+    float: left;
+    margin: 0 20px 20px 0;
+
+}
+
+/*
+ padding: 20px 0px 20px 0px;
+*/
+
+.sobre__mi p {
+
+    margin: 0 0 1em;
+}
+
+.link__redes a {
+    
+    margin: 0px 20px 0px 0px;
+}

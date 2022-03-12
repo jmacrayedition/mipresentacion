@@ -1,0 +1,47 @@
+.formacion {
+    background-color:  rgb(225, 225, 225);;
+    text-align: center;
+}
+
+.formacion h2 {
+    padding: 20px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.formacion h3 {
+    padding: 20px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.formacion__list {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.formacion__list li {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid  #03363C;
+    border-radius: 10px;
+
+}
+
+.list__f {
+    color: rgb(0, 0, 0);
+    margin: -20px 0px 20px 0px;
+}
+
+.formacion__list li:hover, .list__f:hover  {
+    border-color:  #0eac21;
+    color: #0eac21;
+}
+
+.formacion__list li:active {
+    border-color: #136F24;
+}
+

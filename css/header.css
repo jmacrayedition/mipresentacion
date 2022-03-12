@@ -1,0 +1,12 @@
+/*Color de Header*/
+header {
+    background-color: #03363C;
+}
+
+/*Estilo logo*/
+.logo__titulo {
+    width: 10%;
+    padding: 20px 0px 20px 20%;
+    margin: 15px;
+
+}
