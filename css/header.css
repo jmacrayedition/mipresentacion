@@ -1,12 +1,51 @@
 /*Color de Header*/
-header {
-    background-color: #03363C;
+.head {
+    background-color: var(--background-titulo);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid #103D4A;
+    position: absolute;
+
+   
 }
 
 /*Estilo logo*/
-.logo__titulo {
-    width: 10%;
-    padding: 20px 0px 20px 20%;
-    margin: 15px;
+.heaad__logo {
+
+    margin-bottom: 1rem;
+}
+
+.head__navegacion {
+
+    text-align: center;
+}
+
+.head__enlace {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+
+}
+
+.head__enlace a {
+    text-decoration: none;
+    color: var(--fuente-color-blanco);
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
 
 }

@@ -1,12 +1,19 @@
 .contacto{
-    background-color:  rgb(225, 225, 225);
-    padding: 0px 0px 20px 0px;
+    text-align: center;
+    background-color: var(--background-plomo);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
-.contacto h2{
-    padding: 20px 0px 20px 0px;
-    font-weight: bold;
-    text-align: center;  
+.contacto__titulo{
+    font-family: var(--roboto);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem; 
 }
 .formulario{
-    padding: 0px 0px 0px 40rem;
+    width: 100%;
+    height: 75rem;
+ 
+    display: inline-block;
 }

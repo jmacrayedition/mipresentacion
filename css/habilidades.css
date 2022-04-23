@@ -1,41 +1,49 @@
 .habilidades {
-    background-color: rgb(225, 225, 225);
     text-align: center;
+    background-color: var(--background-plomo);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
 }
 
-.habilidades h2 {
-    padding: 20px 0px 0px 0px;
-font-weight: bold;
+.habilidades__titulo {
+
+    font-family: var(--roboto);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+
 }
 
-.habilidades__list {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.habilidades__list li {
+.habilidades__list__contenido {
+    width: 5rem;
+    margin: 0.9rem;
+    padding: 2.5rem;
     display: inline-block;
-    width: 15%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #03363C;
+    border: 2px solid var(--background-titulo);
     border-radius: 10px;
+}
+
+.habilidades__list__titulo {
+    padding-bottom: 2rem;
 
 }
 
-.list__d {
-    color: rgb(0, 0, 0);
-    margin: -20px 0px 20px 0px;
-}
-.habilidades__list li:hover, .list__d:hover{
-    border-color:  #0eac21;
-    color: #0eac21;
-   
+
+.habilidades__list__contenido:hover {
+    border-color: var(--efecto-color);
+    color: var(--efecto-color);
+
 }
 
-.habilidades__list li:active {
-    border-color: #136F24;
+
+@media screen and(min-width: 1024px) {
+
+    .habilidades__list__contenido {
+        display: block;
+
+    }
+
+
 }

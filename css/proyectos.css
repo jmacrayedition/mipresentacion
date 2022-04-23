@@ -1,64 +1,90 @@
 .proyectos {
-    background-color: #fff;
-    padding: 0px 0px 20px 0px;
-}
 
-.proyectos h2 {
-    padding: 20px 0px 20px 0px;
-    font-weight: bold;
     text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
-.list__pro h2 {
-    padding: 0px 0px 15px 32rem;
-    text-align: justify;
+.proyectos__titulo {
+
+    font-family: var(--roboto);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+
 }
 
-.descripcion__pro {
-    padding: 0px 0px 15px 32rem;
+.proyectos__list__contenido {
+    width: 20rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+
+}
+
+.proyectos__list__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.proyectos__subtitulo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.proyectos__boton {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .Ir__sitio {
-    float: left;
-    background-color: black;
-    color: white;
+
+    background-color: var(--background-negro);
+    color: var(--fuente-color-blanco);
     border: 2px solid;
     border-radius: 10%;
-    margin: 20px 20px 20px 32rem;
+    margin: 20px 20px;
     padding: 20px 50px 20px 50px;
     cursor: pointer;
 
 }
 
 .Ir__sitio:hover {
-    background-color:  #03363C;
-    
+    background-color: var(--background-titulo);
+
 }
 
 .Ir__git {
-    float: left;
-    background-color: black;
-    color: white;
+    background-color: var(--background-negro);
+    color: var(--fuente-color-blanco);
     border: 2px solid;
     border-radius: 10%;
-    margin: 20px 20px 0px 0px;
+    margin: 20px 20px;
     padding: 20px 50px 20px 50px;
     cursor: pointer;
 
 }
+
 .Ir__git:hover {
-    background-color:  #03363C;;
+    background-color: var(--background-titulo);
 }
 
-.list__pro img {
-    width: 500px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.proyectos__imagen {
+    width: 20rem;
+    filter: drop-shadow(0px 4px 4px var(--filtro-marco));
     cursor: pointer;
 }
 
-.list__pro img:hover {
-    width: 550px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.proyectos__imagen:hover {
+
+    transform: scale(1.1);
+    filter: drop-shadow(0px 4px 4px var(--filtro-marco));
+
 }
-
-

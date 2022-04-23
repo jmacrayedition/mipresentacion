@@ -1,3 +1,30 @@
-html {
-    font-family: 'Roboto', sans-serif;
+:root {
+    --background-titulo: #03363C;
+    --background-blanco: #FFFFFF;
+    --background-plomo: rgb(225, 225, 225);
+    --background-negro: #000000;
+    --fuente-color-blanco: #FFFFFF;
+    --fuente-color-negro: #000000;
+    --roboto: 'Roboto', sans-serif;
+    --efecto-color: #0eac21;
+    --filtro-marco: rgba(0, 0, 0, 0.25);
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+.container {
+    padding-right: 6%;
+    padding-left: 6%;
+
+}
+
+@media screen and(min-width:1024px) {
+    .container {
+
+        padding-left: calc((100%-940px)/2);
+        padding-right: calc((100%-940px)/2);
+    }
+
 }

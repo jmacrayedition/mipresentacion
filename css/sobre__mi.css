@@ -1,28 +1,38 @@
 /*Section Sobre mi*/
 .sobre__mi {
-    padding: 3em 0;
-    margin: 0 auto;
-    width: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--fuente-color-negro);
+    text-align: center;
+    background-color: var(--background-blanco);
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
 }
 
 
 .perfil {
-    width: 7em;
-    float: left;
-    margin: 0 20px 20px 0;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
 
 }
 
-/*
- padding: 20px 0px 20px 0px;
-*/
 
 .sobre__mi p {
-
-    margin: 0 0 1em;
+    font-size: 1.25rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
 }
 
 .link__redes a {
-    
-    margin: 0px 20px 0px 0px;
+    margin: 0 auto 2.5rem;
+}
+@media screen and (min-width: 1024px){
+
+    .sobre__mi p{
+        font-size: 1.30rem;
+        margin-bottom: 2rem;
+         
+    }
 }

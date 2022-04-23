@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jose Espin Fernandez</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/sobre__mi.css">
     <link rel="stylesheet" href="css/habilidades.css">
     <link rel="stylesheet" href="css/pasatiempos.css">
@@ -19,26 +18,27 @@
     <link rel="stylesheet" href="css/proyectos.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Jose Espin Fernandez</title>
+
 </head>
 
 <body>
-    <header>
+    <header class="head container">
 
-        <h1><img src="imagenes/logo.png" alt="Logo de la Presentación" class="logo__titulo"> </h1>
-        <nav>
+        <img class="heaad__logo" src="imagenes/logo.svg" alt="Logo de la Presentación">
+        <nav class="head__navegacion">
             <ul>
-                <li><a href="#sobremi">SOBRE MÍ</a> </li>
-                <li><a href="#habilidades"> HABILIDADES</a></li>
-                <li><a href="#pasatiempo"> PASATIEMPOS</a></li>
-                <li><a href="#formacion">FORMACIÓN</a> </li>
-                <li><a href="#proyectos">PROYECTOS</a> </li>
-                <li><a href="#contacto">CONTACTO</a> </li>
+                <li class="head__enlace"><a href="#sobremi">SOBRE MÍ</a> </li>
+                <li class="head__enlace"><a href="#habilidades"> HABILIDADES</a></li>
+                <li class="head__enlace"><a href="#pasatiempo"> PASATIEMPOS</a></li>
+                <li class="head__enlace"><a href="#formacion">FORMACIÓN</a> </li>
+                <li class="head__enlace"><a href="#proyectos">PROYECTOS</a> </li>
+                <li class="head__enlace"><a href="#contacto">CONTACTO</a> </li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="sobre__mi">
+        <section class="sobre__mi container">
             <img class="perfil" src="imagenes/perfil.png" alt="Imagen de Perfil">
             <p>Saludos, mi nombre es Jose Espin Fernandez y soy Ingeniero en Sistemas, freelancer.</p>
             <p>Actualmente me dedico al ensamble de computadores, asesoria técnica, y estoy participando del proyecto
@@ -56,132 +56,155 @@
 
 
         </section>
-        <section class="habilidades">
+
+        <section class="habilidades container">
             <a name="habilidades"></a>
-            <h2>HABILIDADES</h2>
+            <h2 class="habilidades__titulo">HABILIDADES</h2>
 
             <ul class="habilidades__list">
-                <li>
-                    <h2 class="list__d">JAVA</h2><img src="imagenes/java.png" alt="">
+                <li class="habilidades__list__contenido">
+                    <h2 class="habilidades__list__titulo">JAVA</h2>
+                    <img class="habilidaades__img" src="imagenes/java.png" alt="Icono java">
                 </li>
-                <li>
-                    <h2 class="list__d">JAVACRIPT </h2><img src="imagenes/js.png" alt="">
+                <li class="habilidades__list__contenido">
+                    <h2 class="habilidades__list__titulo">JAVASCRIPT</h2>
+                    <img class="habilidades__img" src="imagenes/js.png" alt="Icono javascript">
                 </li>
-                <li>
-                    <h2 class="list__d">
-                        PHP </h2><img src="imagenes/php.png" alt="">
+                <li class="habilidades__list__contenido">
+                    <h2 class="habilidades__list__titulo">PHP</h2>
+                    <img class="habilidades__img" src="imagenes/php.png" alt="Icono php">
                 </li>
-                <li>
-                    <h2 class="list__d">
-                        MYSQL
-                    </h2><img src="imagenes/mysql.png" alt="">
+                <li class="habilidades__list__contenido">
+                    <h2 class="habilidades__list__titulo">MYSQL</h2>
+                    <img class="habilidades__img" src="imagenes/mysql.png" alt="Icono mysql">
                 </li>
-                <li>
-                    <h2 class="list__d">
-                        POSTGRESQL
-                    </h2><img src="imagenes/postgre.png" alt="">
+                <li class="habilidades__list__contenido">
+                    <h2 class="habilidades__list__titulo">POSTGRES</h2>
+                    <img class="habilidades__img" src="imagenes/postgre.png" alt="Icono postgresql">
                 </li>
             </ul>
 
 
         </section>
-        <section class="pasatiempos">
+
+        <section class="pasatiempos container">
             <a name="pasatiempo"></a>
-            <h2>PASATIEMPOS</h2>
+            <h2 class="pasatiempos__titulo">PASATIEMPOS</h2>
 
-            <ul class="pasatiempo__list">
-                <li>
-                    <h2 class="list__p">LEER</h2><img src="imagenes/leer.png" alt="">
+            <ul class="pasatiempos__list">
+                <li class="pasatiempos__list__contenido">
+                    <h2 class="pasatiempos__list__titulo">LEER</h2>
+                    <img class="pasatiempos__img" src="imagenes/leer.png" alt="Icono de lectura">
                 </li>
-                <li>
-                    <h2 class="list__p">YOUTUBE</h2><img src="imagenes/youtube.png" alt="">
+                <li class="pasatiempos__list__contenido">
+                    <h2 class="pasatiempos__list__titulo">YOUTUBE</h2>
+                    <img class="pasatiempos__img" src="imagenes/youtube.png" alt="Icono de youtube">
                 </li>
-                <li>
-                    <h2 class="list__p">BLOGGER</h2><img src="imagenes/blogger.png" alt="">
+                <li class="pasatiempos__list__contenido">
+                    <h2 class="pasatiempos__list__titulo">BLOGGER</h2>
+                    <img class="pasatiempos__img" src="imagenes/blogger.png" alt="Icono de blogger">
                 </li>
-                <li>
-                    <h2 class="list__p">F1</h2><img src="imagenes/f1.png" alt="">
+                <li class="pasatiempos__list__contenido">
+                    <h2 class="pasatiempos__list__titulo">F1</h2>
+                    <img class="pasatiempos__img" src="imagenes/f1.png" alt="Icono de formula 1">
                 </li>
-                <li>
-                    <h2 class="list__p">GYM</h2><img src="imagenes/gym.png" alt="">
+                <li class="pasatiempos__list__contenido">
+                    <h2 class="pasatiempos__list__titulo">GYM</h2>
+                    <img class="pasatiempos__img" src="imagenes/gym.png" alt=" Icono de gym">
                 </li>
             </ul>
 
         </section>
-        <section class="formacion">
+
+        <section class="formacion container">
             <a name="formacion"></a>
-            <h2>FORMACIÓN</h2>
+            <h2 class="formacion__titulo">FORMACIÓN</h2>
 
             <ul class="formacion__list">
-                <li>
-                    <h2 class="list__f">UTB</h2><img src="imagenes/utb.png" alt="">
-                    <h3>Universidad Técnica de Babahoyo</h3>
+                <li class="formacion__list__contenido">
+                    <h2 class="formacion__list__titulo">UTB</h2>
+                    <img class="formacion__img" src="imagenes/utb.png" alt="Logo Universidad Técnica de Babahoyo">
+                    <h3 class="formacion__descripcion">Universidad Técnica de Babahoyo</h3>
                 </li>
-                <li>
-                    <h2 class="list__f">FAFI</h2><img src="imagenes/fafi.png" alt="">
-                    <h3>Facultadad De Administración, Finanzas e Informática</h3>
+                <li class="formacion__list__contenido">
+                    <h2 class="formacion__list__titulo">FAFI</h2>
+                    <img class="formacion__img" src="imagenes/fafi.png" alt="Logo FAFI">
+                    <h3 class="formacion__descripcion">Facultadad De Administración, Finanzas e Informática</h3>
                 </li>
-                <li>
-                    <h2 class="list__f">ING. SISTEMAS</h2><img src="imagenes/graduado.png" alt="">
-                    <h3>5 años de estudio</h3>
+                <li class="formacion__list__contenido">
+                    <h2 class="formacion__list__titulo">ING. SISTEMAS</h2>
+                    <img class="formacion__img" src="imagenes/graduado.png" alt="Logo de graduado">
+                    <h3 class="formacion__descripcion">5 años de estudio</h3>
                 </li>
 
             </ul>
 
         </section>
+
         <section class="proyectos">
             <a name="proyectos"></a>
-            <h2>PROYECTOS</h2>
+            <h2 class="proyectos__titulo">PROYECTOS</h2>
             <ul class="proyectos__list">
-                <li class="list__pro">
-                    <h2>Encriptador</h2>
-                    <p class="descripcion__pro">Primer Challenge One</p>
+                <li class="proyectos__list__contenido">
+                    <h2 class="proyectos__list__titulo">Encriptador</h2>
+                    <p class="proyectos__subtitulo">Primer Challenge One</p>
+                    <img class="proyectos__imagen" src="imagenes/sitios/sitioencriptador.png"
+                        alt="Proyecto encriptador">
 
-                    <a href="https://jmacrayedition.github.io/Challenge-Alura/" target="_blank">
+                    <a class="proyectos__boton" href="https://jmacrayedition.github.io/Challenge-Alura/" target="blank">
                         <input class="Ir__sitio" type="button" value="VER">
                     </a>
-                    <a href="https://github.com/jmacrayedition/Challenge-Alura" target="_blank">
+                    <a class="proyectos__boton" href="https://github.com/jmacrayedition/Challenge-Alura" target="blank">
                         <input class="Ir__git" type="button" value="GITHUB">
                     </a>
-                    <img src="imagenes/sitios/sitioencriptador.png" alt="">
 
                 </li>
-                <li class="list__pro">
-                    <h2>Ahorcado</h2>
-                    <p class="descripcion__pro">Segundo Challenge One</p>
-                    <a href="https://jmacrayedition.github.io/hangmanone" target="_blank">
+
+                <li class="proyectos__list__contenido">
+                    <h2 class="proyectos__list__titulo">Ahorcado</h2>
+                    <p class="proyectos__subtitulo">Segundo Challenge One</p>
+                    <img class="proyectos__imagen" src="imagenes/sitios/sitioahorcado.PNG" alt="Proyecto ahoracado">
+                    <a class="proyectos__boton" href="https://jmacrayedition.github.io/hangmanone" target="_blank">
                         <input class="Ir__sitio" type="button" value="VER">
                     </a>
-                    <a href="https://github.com/jmacrayedition/hangmanone" target="_blank">
+                    <a class="proyectos__boton" href="https://github.com/jmacrayedition/hangmanone" target="_blank">
                         <input class="Ir__git" type="button" value="GITHUB">
                     </a>
-                    <img src="imagenes/sitios/sitioahorcado.PNG" alt="">
+
                 </li>
-                <li class="list__pro">
-                    <h2>Barberia</h2>
-                    <p class="descripcion__pro">Sitio responsivo</p>
-                    <a href="https://jmacrayedition.github.io/barberiaAluraLatam" target="_blank">
+
+                <li class="proyectos__list__contenido">
+                    <h2 class="proyectos__list__titulo">Barberia</h2>
+                    <p class="proyectos__subtitulo">Sitio responsivo</p>
+                    <img class="proyectos__imagen" src="imagenes/sitios/sitiobarberia.png"
+                        alt="Proyecto barberia alura">
+                    <a class="proyectos__boton" href="https://jmacrayedition.github.io/barberiaAluraLatam"
+                        target="_blank">
                         <input class="Ir__sitio" type="button" value="VER">
                     </a>
-                    <a href="https://github.com/jmacrayedition/barberiaAluraLatam" target="_blank">
+                    <a class="proyectos__boton" href="https://github.com/jmacrayedition/barberiaAluraLatam"
+                        target="_blank">
                         <input class="Ir__git" type="button" value="GITHUB">
                     </a>
-                    <img src="imagenes/sitios/sitiobarberia.png" alt="">
+
                 </li>
 
             </ul>
 
         </section>
+     
         <section class="contacto">
             <a name="contacto"></a>
-            <h2>CONTACTO</h2>
+            <h2 class="contacto__titulo">CONTACTO</h2>
        
             <iframe class="formulario"
                 src="https://docs.google.com/forms/d/e/1FAIpQLSczFfQ06THdiEAq0nPEMxUkcm70COrpBpo2d587ey5GYYvTvQ/viewform?embedded=true"
-                width="640" height="1200" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+               frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
         </section>
+        
     </main>
-    <footer>
+  
+     <footer>
         <img src="imagenes/logo.png" alt="Logo">
         <p class="copyright"> &copy Copyright Jose Espin Fernandez - 2022</p>
     </footer>
